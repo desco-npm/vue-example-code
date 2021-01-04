@@ -13,7 +13,8 @@
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.30.0",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.0",
+    "syntax": "^1.6.1"
   },
   "eslintConfig": {
     "root": true,
