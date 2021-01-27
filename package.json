@@ -1,6 +1,6 @@
 {
   "name": "@desco/vue-example-code",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.vue",
   "scripts": {
@@ -14,7 +14,7 @@
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
-    "syntax": "^1.6.1"
+    "syntax": "^1.6.2"
   },
   "eslintConfig": {
     "root": true,
