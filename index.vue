@@ -1,14 +1,15 @@
 <template lang="pug">
   div.example-code
     Codes(v-if="!code.example" :codes="codes")
-    el-card(v-else)
+    el-card(v-else :body-style="{ paddingBottom: 0, }")
       div.header(slot="header")
         |{{code.title}}
-      |{{code.description}}
+      vue-markdown {{code.description}}
       Codes(:codes="codes" :class="{ show: codeShow, }")
       el-divider
         i(
           :class="{ 'el-icon-arrow-down': !codeShow, 'el-icon-arrow-up': codeShow, }"
+          class="code-arrow"
           @click="toogleCodeShow"
         )
 </template>
@@ -18,9 +19,11 @@
 
   import Codes from './Codes'
 
+  import VueMarkdown from 'vue-markdown'
+
   export default {
     name: 'ExampleCode',
-    components: { Codes, },
+    components: { VueMarkdown, Codes, },
     props: {
       code: Array,
     },
@@ -79,11 +82,13 @@
 <style lang="scss" scoped>
   .example-code {
     .el-card {
-      padding-bottom: 0;
-
       .header {
         line-height: 0;
         font-weight: bold;
+      }
+
+      .code-arrow {
+        cursor: pointer;
       }
 
       .el-tabs {

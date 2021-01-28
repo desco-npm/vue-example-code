@@ -51,7 +51,7 @@
         }
       },
       getTabIcon (Code) {
-        switch (Code.lang.toLowerCase()) {
+        switch ((Code.lang || '').toLowerCase()) {
           case 'js':
           case 'ts':
           case 'javascript':
@@ -76,7 +76,7 @@
         }
       },
       getCodeLang (Code) {
-        switch (Code.lang.toLowerCase()) {
+        switch ((Code.lang || '').toLowerCase()) {
           case 'javascript':
           case 'js': return 'JavaScript'
           case 'ts':
