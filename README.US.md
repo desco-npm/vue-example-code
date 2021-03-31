@@ -131,6 +131,8 @@ export default {
 | example.icon    | String       | Yes       | Language icon            | Icon to be displayed in the code tab                                                                                          |
 | example.content | String       | No        | -                        | Example code                                                                                                                  |
 
+---
+
 ## Author
 
 <table>
