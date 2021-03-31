@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Componente VueJS para exemplo de códigos.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.2.1" src="https://img.shields.io/static/v1?label=Versão&message=1.2.1&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.2.1" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.2.1&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso 🚀
@@ -30,10 +30,10 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
@@ -41,9 +41,9 @@
 
 As seguintes tecnologias são utilizadas:
 
-* [VueJs](https://vuejs.org/)
-* [PUG/JADE](https://pugjs.org)
-* [SCSS/SASS](https://sass-lang.com)
+- [VueJs](https://vuejs.org/)
+- [PUG/JADE](https://pugjs.org)
+- [SCSS/SASS](https://sass-lang.com)
 
 ---
 
@@ -64,7 +64,7 @@ npm install --save @desco/vue-example-code
 ## 📦 Importação
 
 ```js
-import exampleCode from '@desco/vue-example-code'
+import exampleCode from "@desco/vue-example-code";
 ```
 
 ---
@@ -121,15 +121,15 @@ export default {
 
 ### Parâmetros
 
-| Nome | Tipo | Obrigatório | Padrão | Descrição |
-|---|---|---|---|---|
-| title | String | Não | - | O título do exemplo |
-| description | String | Não | - | A descrição do exemplo |
-| example | JSON/Array | Sim | - | JSON ou Array de JSONs contendo informações dos códigos que aparecerão em cada aba. |
-| example.lang | String | Não | - | Linguagem do código. Essa informação será usada na sintaxe do código assim como no ícone e título da aba (Caso não informado) |
-example.name | String | Não | A linguagem do código | Nome a ser exibido na aba do código |
-example.icon | String | Sim | Ícone da linguagem | Ícone a ser exbido na aba do código |
-example.content | String | Não | - | Código do exemplo |
+| Nome            | Tipo       | Obrigatório | Padrão                | Descrição                                                                                                                     |
+| --------------- | ---------- | ----------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| title           | String     | Não         | -                     | O título do exemplo                                                                                                           |
+| description     | String     | Não         | -                     | A descrição do exemplo                                                                                                        |
+| example         | JSON/Array | Sim         | -                     | JSON ou Array de JSONs contendo informações dos códigos que aparecerão em cada aba.                                           |
+| example.lang    | String     | Não         | -                     | Linguagem do código. Essa informação será usada na sintaxe do código assim como no ícone e título da aba (Caso não informado) |
+| example.name    | String     | Não         | A linguagem do código | Nome a ser exibido na aba do código                                                                                           |
+| example.icon    | String     | Sim         | Ícone da linguagem    | Ícone a ser exbido na aba do código                                                                                           |
+| example.content | String     | Não         | -                     | Código do exemplo                                                                                                             |
 
 ---
 
@@ -152,10 +152,10 @@ example.content | String | Não | - | Código do exemplo |
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">

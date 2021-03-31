@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,10 +30,10 @@
 
 ## 📋 Table of Contents
 
-* [🛠️ Technology](#Technology)
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [🛠️ Technology](#Technology)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -41,9 +41,9 @@
 
 The following technologies are used:
 
-* [VueJs](https://vuejs.org/)
-* [PUG/JADE](https://pugjs.org)
-* [SCSS/SASS](https://sass-lang.com)
+- [VueJs](https://vuejs.org/)
+- [PUG/JADE](https://pugjs.org)
+- [SCSS/SASS](https://sass-lang.com)
 
 ---
 
@@ -64,7 +64,7 @@ npm install --save @desco/vue-example-code
 ## 📦 Import
 
 ```js
-import exampleCode from '@desco/vue-example-code'
+import exampleCode from "@desco/vue-example-code";
 ```
 
 ---
@@ -121,15 +121,15 @@ export default {
 
 ### Parameters
 
-| Name | Type | Mandatory | Standard | Description |
-| --- | --- | --- | --- | --- |
-| title | String | No | - | The title of the example |
-| description | String | No | - | The description of the example |
-| example | JSON / Array | Yes | - | JSON or JSON Array containing code information that will appear on each tab. |
-| example.lang | String | No | - | Code language. This information will be used in the syntax of the code as well as in the icon and tab title (If not informed) |
-example.name | String | No | The language of the code | Name to be displayed in the code tab |
-example.icon | String | Yes | Language icon | Icon to be displayed in the code tab |
-example.content | String | No | - | Example code |
+| Name            | Type         | Mandatory | Standard                 | Description                                                                                                                   |
+| --------------- | ------------ | --------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| title           | String       | No        | -                        | The title of the example                                                                                                      |
+| description     | String       | No        | -                        | The description of the example                                                                                                |
+| example         | JSON / Array | Yes       | -                        | JSON or JSON Array containing code information that will appear on each tab.                                                  |
+| example.lang    | String       | No        | -                        | Code language. This information will be used in the syntax of the code as well as in the icon and tab title (If not informed) |
+| example.name    | String       | No        | The language of the code | Name to be displayed in the code tab                                                                                          |
+| example.icon    | String       | Yes       | Language icon            | Icon to be displayed in the code tab                                                                                          |
+| example.content | String       | No        | -                        | Example code                                                                                                                  |
 
 ## Author
 
@@ -150,10 +150,10 @@ example.content | String | No | - | Example code |
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
